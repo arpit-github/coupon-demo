@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'Linearicons';
+  src: url('../fonts/Linearicons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-black.eot');
+  src: url('../fonts/lato/lato-black.eot?#iefix') format("embedded-opentype"), url('../fonts/lato/lato-black.woff') format("woff"), url('../fonts/lato/lato-black.ttf') format("truetype"), url('../fonts/lato/lato-black.svg#latoblack') format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-bold.eot');
+  src: url('../fonts/lato/lato-bold.eot?#iefix') format("embedded-opentype"), url('../fonts/lato/lato-bold.woff') format("woff"), url('../fonts/lato/lato-bold.ttf') format("truetype"), url('../fonts/lato/lato-bold.svg#latobold') format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-bolditalic.eot');
+  src: url('../fonts/lato/lato-bolditalic.eot?#iefix') format("embedded-opentype"), url('../fonts/lato/lato-bolditalic.woff') format("woff"), url('../fonts/lato/lato-bolditalic.ttf') format("truetype"), url('../fonts/lato/lato-bolditalic.svg#latobold-italic') format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-italic.eot');
+  src: url('../fonts/lato/lato-italic.eot?#iefix') format("embedded-opentype"), url('../fonts/lato/lato-italic.woff') format("woff"), url('../fonts/lato/lato-italic.ttf') format("truetype"), url('../fonts/lato/lato-italic.svg#latoitalic') format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-light.eot');
+  src: url('../fonts/lato/lato-light.eot?#iefix') format("embedded-opentype"), url('../fonts/lato/lato-light.woff') format("woff"), url('../fonts/lato/lato-light.ttf') format("truetype"), url('../fonts/lato/lato-light.svg#latolight') format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-regular.eot');
+  src: url('../fonts/lato/lato-regular.eot?#iefix') format("embedded-opentype"), url('../fonts/lato/lato-regular.woff') format("woff"), url('../fonts/lato/lato-regular.ttf') format("truetype"), url('../fonts/lato/lato-regular.svg#latoregular') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Regular'), url('../fonts/segoe/SegoePro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Cond Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Cond Italic'), url('../fonts/segoe/SegoePro-CondItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Italic'), url('../fonts/segoe/SegoePro-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Light'), url('../fonts/segoe/SegoePro-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Light Italic'), url('../fonts/segoe/SegoePro-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro SemiLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro SemiLight'), url('../fonts/segoe/SegoePro-Semilight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro SemiLight Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro SemiLight Italic'), url('../fonts/segoe/SegoePro-SemilightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Semibold'), url('../fonts/segoe/SegoePro-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Semibold Italic'), url('../fonts/segoe/SegoePro-SemiboldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Bold'), url('../fonts/segoe/SegoePro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Cond Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Cond Bold'), url('../fonts/segoe/SegoePro-CondBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Bold Italic'), url('../fonts/segoe/SegoePro-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Cond Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Cond Bold Italic'), url('../fonts/segoe/SegoePro-CondBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Black'), url('../fonts/segoe/SegoePro-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Black Italic'), url('../fonts/segoe/SegoePro-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Display Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display Regular'), url('../fonts/segoe/SegoeProDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Display Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display Light'), url('../fonts/segoe/SegoeProDisplay-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Display SemiLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display SemiLight'), url('../fonts/segoe/SegoeProDisplay-Semilight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Display Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display Semibold'), url('../fonts/segoe/SegoeProDisplay-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe Pro Display Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Pro Display Bold'), url('../fonts/segoe/SegoeProDisplay-Bold.woff') format('woff');
+}

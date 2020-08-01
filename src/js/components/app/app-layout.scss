@@ -1,0 +1,27 @@
+@import "../../../css/variables";
+@import "../../../css/mixins";
+@import "../../../css/bootstrap/mixins";
+
+.layout-container {
+  display: flex;
+  height: calc(100% - 60px);
+
+  :global .ant-layout-sider {
+    height: calc(100% - 50px) !important;
+    background: white;
+    border-right: 1px solid #e8e8e8;
+    // margin-top: 45px;
+
+    :global .ant-menu-inline{
+      border-right: none;
+    }
+
+    :global .ant-menu{
+      background-color: $color-nav-bg;
+    }
+  }
+
+  .layout-content{
+    width: 100%;
+  }
+}
