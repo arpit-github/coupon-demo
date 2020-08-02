@@ -2,12 +2,14 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
-import PageNotFound from '../common/page-not-found';
 import { AppContext } from '../../global/context';
+import PageNotFound from '../common/page-not-found';
+
 import AppContent from './app-content';
 import style from './app-layout.scss';
+import HomePage from './home/home-page';
 
-function AppLayout() {
+function AppLayout({ }) {
 	const [contentHeight, setContentHeight] = useState(document.documentElement.clientHeight);
 	const [contentWidth, setContentWidth] = useState(document.documentElement.clientWidth);
 
@@ -25,9 +27,9 @@ function AppLayout() {
 			<div className={style['layout-container']}>
 				<AppContent className={style['layout-content']}>
 					<Switch>
-						{/* <Redirect exact from='/' to='/user' /> */}
-		
-						{/* <Route path='/user' exact component={UsersSection} /> */}
+						<Redirect exact from='/' to='/home' />
+
+						<Route path='/home' exact component={HomePage} />
 
 						<Route component={PageNotFound} />
 					</Switch>

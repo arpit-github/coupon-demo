@@ -119,5 +119,9 @@ module.exports = {
 		alias: {
 			'@ant-design/icons/lib/dist$': path.resolve(__dirname, './src/icons.js')
 		}
+	},
+	devServer: {
+		historyApiFallback: true,
+		host: 'localhost'
 	}
 };

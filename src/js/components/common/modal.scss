@@ -1,0 +1,100 @@
+@import "../../../css/mixins";
+@import "../../../css/variables";
+
+.portal {
+  :global {
+    .ReactModal__Overlay--after-open {
+      opacity: 1;
+    }
+    .ReactModal__Overlay--before-close {
+      opacity: 0;
+    }
+    .ReactModal__Content--after-open {
+      @include transform(translate(0, 0));
+    }
+    .ReactModal__Content--before-close {
+      @include transform(translate(0, -25%));
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1050;
+}
+
+.header-title {
+  background: #fff;
+  padding: 0px 8px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  margin: 0;
+  color: #7a211f;
+  line-height: 1.42;
+  font-size: 21px;
+  font-weight: 300;
+  z-index: 9;
+  white-space: nowrap;
+  max-width: calc(100% - 100px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-close-icon {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  opacity: 1;
+  padding: 8px;
+  cursor: pointer;
+  background-color: white;
+  z-index: 9;
+
+  .close {
+    width: 100%;
+  }
+}
+
+.body {
+  margin: 0px;
+  height: 100%;
+  border: 1px solid $color-theme;
+  overflow: auto;
+  position: relative;
+}
+
+.content {
+  position: static;
+  width: 85%;
+  height: calc(100% - 120px);
+  min-height: 200px;
+  margin: 60px auto;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  @include transform(translate(0, -25%));
+  transition: transform 0.2s ease-out;
+  outline: none;
+  border: none;
+  padding: 25px;
+  border-radius: 0px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (min-width: 1300px) {
+  .content {
+    width: 75%;
+    height: calc(100% - 150px);
+    margin: 75px auto;
+  }
+}

@@ -199,13 +199,13 @@ a:focus {
   width: 100%;
 }
 .ant-tabs-nav .ant-tabs-tab-active {
-  color: $color-theame;
+  color: $color-theme;
 }
 .ant-tabs-nav .ant-tabs-tab:hover {
   color: $color-brand-primary-light;
 }
 .ant-tabs-ink-bar {
-  background: $color-theame;
+  background: $color-theme;
 }
 .ant-table-pagination.ant-pagination {
   width: 100%;
@@ -384,4 +384,11 @@ a:focus {
     font-weight: normal;
     font-size: 16px;
   }
+}
+
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled),
+.ant-input:focus,
+.ant-input:hover {
+  border-color: $color-theme;
+  box-shadow: none;
 }

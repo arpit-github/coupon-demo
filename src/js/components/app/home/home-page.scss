@@ -1,0 +1,97 @@
+@import "../../../../css/variables";
+
+.menus-div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+
+    .menu-item {
+        padding: 0 10px;
+        max-width: min-content;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        border-bottom: 2px solid white;
+
+        &:hover {
+            border-bottom: 2px solid $color-theme;
+        }
+
+        .menu-icon {
+            border-radius: 50%;
+            border: 1px solid #dfe3e7;
+            padding: 4px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+.popover-tooltip {
+    width: calc(100% - 40px);
+    left: 20px !important;
+    padding-top: 0 !important;
+
+    :global {
+        .ant-popover-arrow {
+            display: none !important;
+        }
+    }
+}
+
+.carousel {
+    img {
+        width: 100%;
+    }
+
+    :global .ant-carousel {
+        .slick-slide {
+            text-align: center;
+            height: auto;
+            overflow: hidden;
+
+            img {
+                display: inherit;
+            }
+        }
+
+        .slick-next {
+            right: 50px;
+            border: solid #fff;
+            border-width: 0 4px 4px 0;
+            width: 15px;
+            height: 15px;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            opacity: 0.7;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        .slick-prev {
+            left: 50px;
+            color: white;
+            border: solid #fff;
+            border-width: 4px 0 0 4px;
+            width: 15px;
+            height: 15px;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            z-index: 9;
+            opacity: 0.7;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// @media (max-width: 991px) {
+//     .menus-div {
+//         display: none;
+//     }
+// }

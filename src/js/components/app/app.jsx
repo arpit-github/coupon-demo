@@ -13,7 +13,7 @@ function App() {
 		<Router history={history}>
 			<ErrorBoundary>
 				<Switch>
-					<Route path='/' componnt={AppLayout} />
+					<Route path='/' component={AppLayout} />
 				</Switch>
 			</ErrorBoundary>
 		</Router>

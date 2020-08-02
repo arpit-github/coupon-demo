@@ -1,0 +1,50 @@
+.header {
+
+    .login-link {
+        text-align: right;
+        font-size: 12px;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 0;
+
+        .menu {
+            width: 25px;
+        }
+
+        .call-number {
+            font-size: 16px;
+            font-weight: 900;
+            margin: auto 10px;
+        }
+    }
+}
+
+.modal-class-1 {
+    position: absolute;
+    width: 500px;
+    height: 225px;
+    left: calc(50% - 250px);
+    top: calc(50% - 112px);
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    -webkit-transform: translate(0, -25%);
+    -moz-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    transition: transform 0.2s ease-out;
+    outline: none;
+    border: none;
+    padding: 25px;
+    border-radius: 0px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 768px) {
+    .search-box {
+        display: none !important;
+    }
+}

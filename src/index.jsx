@@ -6,6 +6,7 @@ import Modal from 'react-modal';
 import { render } from 'react-dom';
 
 import './css/main.scss?global';
+
 import App from './js/components/app/app';
 import { configureToast } from './js/toast';
 
